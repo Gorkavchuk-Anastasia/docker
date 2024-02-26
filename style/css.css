@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 204, 211);
+}
+
+
+table {
+    color: #9a1224;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 15px solid #f36b94;
+	border-top: 5px solid #f36b94;
+	border-collapse: collapse; 
+
+}
+
+th {
+    font-weight: bold;
+	padding: 5px;
+	background: #f36b94;
+	border: none;
+	border-bottom: 5px solid #f36b94;
+    
+}
+
+td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #f36b94;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    background-color: #cc1c65;
+    color: #fff;
+    width: 246px;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+/* КНОПКА ПОСМОТРЕТЬ */
+.form .submit-app{
+    margin-top: 25px;
+}
+
+.form .submit-app {
+    margin: auto;
+    display: block;
+    height: 50px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #9a1224;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* КНОПКА ПОСМОТРЕТЬ */
+
+/* ЗАПРОСЫ */
+.form-zapros{
+    margin-top: 25px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+h4{
+    color: #cc1c65;
+    text-align: center;
+    font-size: 20px;
+    margin: 12px;
+}
+
+h3{
+    color: #cc1c65;
+}
+
+.form-zapros .submit-zap{
+    margin: 15px;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #cc1c65;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* margin-left: auto; */
+    /* margin-right:auto; */
+}
+
+.form-zapros .submit-reset{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    height: 70px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #9a1224;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+/* ЗАПРОСЫ */
+
+/* ПОИСК */
+.form-search{
+    margin-top: 25px;
+}
+
+.form-search .input-f{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 85%;
+    margin-top: 9px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 10px solid #cc1c65;
+    padding-left: 10px;
+}
+
+.form-search .input-f::placeholder{
+    color: #8a7476;
+}
+
+.form-search .submit-search{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    height: 54px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #9a1224;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 28px;
+    top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.search-err{
+    color: #cc1c65;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
+/* ЗАПРОСЫ */
+
+
+/* ФИЛЬТР */
+.filter{
+    margin-top: 25px;
+}
+
+.filter .filter-view{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 85%;
+    margin-top: 9px;
+    border-radius: 6px;
+    border: none;
+    color: #8a7476; 
+    font-size: 16px;
+    border-bottom: 10px solid #cc1c65;
+    padding-left: 10px;
+}
+
+.filter .filter-sub{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    height: 54px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #9a1224;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 28px;
+    top: 12px;
+    display: flex;
+    align-items: center;
+}
+/* ФИЛЬТР */
+
+/* ВВОД */
+
+.vvod{
+    margin-top: 25px;
+}
+
+.vvod .vvod-ee{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 85%;
+    margin-top: 9px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 10px solid #cc1c65;
+    padding-left: 10px;
+}
+
+.vvod .vvod-ee::placeholder{
+    color: #8a7476;
+}
+
+.vvod .vvod-sub{
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    height: 54px;
+    width: 100px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #9a1224;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 28px;
+    top: 12px;
+    display: flex;
+    align-items: center;
+}
+
+h5{
+    color: #cc1c65;
+    text-align: center;
+    font-size: 20px;
+}
+
+
